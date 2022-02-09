@@ -1,0 +1,41 @@
+.background{
+	background-image: url(Bg.jpg);
+	height:930px;
+	width:1850px;
+	background-size:100%;
+}
+.board{
+	background-color:coral;
+	width:220px;
+	height:300px;
+}
+.score{}
+.object1{
+	position: absolute;
+	 left:400px;
+	 bottom:110px;
+	 width:130px;
+	 height:130px;
+	 background-size:100%
+}
+
+.object2{
+	position: absolute;
+	 left:1380px;
+	 bottom:120px;
+	 width:130px;
+	 height:130px;
+	 background-size:100%;
+}
+
+.object3{
+	position: absolute;
+	 left:1730px;
+	 bottom:50px;
+	 width:130px;
+	 height:130px;
+	 background-size:100%;
+}
+.Keys-3{}
+
+

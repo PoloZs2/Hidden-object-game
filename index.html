@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>find keys</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="background">
+
+		<div class="board">
+		<h1 style="margin-left:10px;">Задача:</h1>
+		<h2 style="margin-left:10px;" class="Keys-3">найти 3 ключа!</h2>
+		<h1 style="margin-top:100px; margin-left: 10px;">Очки: <span class="score"></span></h1>
+
+		<div class="object1"><img style="height:60px;width:60px;" src="Key_1 130x130.png"></div>
+		<div class="object2"><img style="height:60px;width:60px;" src="key_2 130x130.png"></div>
+		<div class="object3"><img style="height:60px;width:60px;" src="Key_3 130x130.png"></div>
+
+		</div>
+
+	</div>
+<script>
+	let score = 0
+
+	document.querySelector(".score").innerHTML = score
+	document.querySelector(".object1").onclick = function(){
+
+		document.querySelector(".score").innerHTML = score = score + 1
+		document.querySelector(".score").innerHTML = score
+
+		document.querySelector(".object1").style.display = "none"
+	}
+
+	document.querySelector(".object2").onclick = function(){
+		
+		document.querySelector(".score").innerHTML = score = score + 1
+		document.querySelector(".score").innerHTML = score
+
+		document.querySelector(".object2").style.display = "none"
+
+	}
+
+	document.querySelector(".object3").onclick = function(){
+
+
+		document.querySelector(".score").innerHTML = score = score + 1
+		document.querySelector(".score").innerHTML = score
+
+	   document.querySelector(".object3").style.display = "none"
+	}
+
+</script>
+</body>
+</html>
